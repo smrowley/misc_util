@@ -10,7 +10,7 @@ Example playbook usage:
   hosts: localhost
   tasks:
     - name: Send key events via WebSocket
-      my_namespace.my_collection.kvmd_websocket:
+      misc_utils.pikvm.kvmd_websocket:
         uri: "wss://10.0.0.7/api/ws?stream=0"
         user: "admin"
         password: "admin"
