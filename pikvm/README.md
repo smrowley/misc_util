@@ -2,6 +2,8 @@
 
 Documentation for the collection.
 
+The collection uses pikvm API for integration: https://docs.pikvm.org/api/
+
 Example playbook usage:
 
 ```yaml
